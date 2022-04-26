@@ -5,6 +5,7 @@ const Gentleman = ({
   twitter,
   picture,
   alternativeText,
+  deleteIcon,
 }) => {
   return (
     <>
@@ -31,6 +32,7 @@ const Gentleman = ({
             <li className="gentleman__data">
               <span className="gentleman__data-label">Twitter:{twitter}</span>
             </li>
+            <i className="icon gentleman__icon gentleman__icon--delete fas fa-times"></i>
           </ul>
         </div>
       </li>
