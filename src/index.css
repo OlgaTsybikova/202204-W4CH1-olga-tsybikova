@@ -124,8 +124,7 @@ h2 {
   cursor: pointer;
 }
 
-.gentleman.selected .gentleman__icon,
-.gentleman:hover .gentleman__icon {
+.gentleman.selected .gentleman__icon {
   display: flex;
   justify-content: center;
   align-items: center;
